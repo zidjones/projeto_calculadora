@@ -17,7 +17,7 @@ public class TesteCalculadora {
         }
 
         try {
-            System.out.println(calc.calcular(5, 5, "x")); // exceção
+            System.out.println(calc.calcular( 5, 5, "x")); // exceção
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
