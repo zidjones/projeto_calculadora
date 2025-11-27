@@ -36,20 +36,35 @@ public class calculadora {
     }
 
     /**
-     * Preencher com o devido comentário
+     * Subtrai o segundo número do primeiro.
+     *
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado de {@code a - b}
      */
     public int subtrair(int a, int b) {
         return a - b;
     }
 
     /**
-     * Preencher com o devido comentário
+     * Multiplica dois números inteiros.
+     *
+     * @param a primeiro operando
+     * @param b segundo operando
+     * @return o resultado da multiplicação de {@code a * b}
      */
     public int multiplicar(int a, int b) {
         return a * b;
     }
+
     /**
-     * Preencher com o devido comentário
+     * Realiza a divisão entre dois valores inteiros.
+     *
+     * @param a numerador
+     * @param b denominador
+     * @return o resultado da divisão de {@code a / b}
+     *
+     * @throws IllegalArgumentException se {@code b} for igual a zero
      */
     public int dividir(int a, int b) {
         if (b == 0) {
